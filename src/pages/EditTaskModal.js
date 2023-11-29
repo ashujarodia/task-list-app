@@ -64,7 +64,9 @@ const EditTaskModal = () => {
 							{/* Dropdown for task priority */}
 							<label className='flex flex-col mt-10 font-semibold tracking-widest text-gray-700'>
 								Priority
-								<span className='text-xs py-2 text-gray-400'>Add priority so that you can</span>
+								<span className='text-xs py-2 tracking-wide  text-gray-400'>
+									Add priority so that you can complete tasks according to their priority.
+								</span>
 							</label>
 							<select
 								value={priority}
