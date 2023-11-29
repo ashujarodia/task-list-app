@@ -26,11 +26,11 @@ const EditTaskModal = () => {
 	// Handling form submission to update the task
 	const handleSubmit = (e) => {
 		e.preventDefault();
-		dispatch(updateTask({ id: task.id, name, desc, priority }));
+		dispatch(updateTask({ id: task.id, name, desc, priority, dueDate }));
 		setName('');
 		setDesc('');
 		setPriority('Low');
-		setDueDate('');
+		setDueDate();
 		setShowModal(false);
 	};
 
