@@ -21,7 +21,7 @@ TaskPlus is a simple task management application built using React and Redux. It
 
 1. Clone the repository:
 
-      git clone https://github.com/ashujarodia/taskplus.git
+      git clone https://github.com/ashujarodia/task-list-app.git
 
       ```
 
